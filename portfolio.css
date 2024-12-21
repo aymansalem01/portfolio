@@ -1,0 +1,128 @@
+body{
+    background-color:#121210 ;
+    color: #818576;
+    font-family: 'Playfair Display', serif;
+    padding: 0px;
+    margin: 0px;
+}
+nav{
+    display: flex;
+    justify-content: center;
+}
+nav>div{
+    text-align: center;
+    padding: 20px;
+}
+nav>div>a{
+    text-decoration: none;
+    color: #818576;
+    font-size: 20px;
+}
+.head{
+    display: flex;
+    padding-top: 30px;
+}
+.head>.left{
+    width: 30%;
+    /* border: #818576 solid; */
+    margin-left: 20px;
+}
+.left>img{
+    width: 100%;
+    height: 400px;
+}
+.head>.right{
+    padding-left: 60px;
+    width: 400px;
+}
+.head>.right>h1{
+    font-size: 50px;
+}
+.head>.right>p{
+    font-size: 15px;
+}
+.skills{
+    text-align: center;
+    padding-top: 10px;
+}
+.skills>h1{font-size: 50px;}
+.skills>.skillscard{    
+    display: flex;
+    justify-content: space-evenly;
+}
+.skillscard>div{
+    border: #818576 solid;
+    text-align: center;
+    padding: 10px;
+}
+.skillscard>div>p{
+    font-size: 20px;
+}
+.third{
+    text-align: center;
+    padding-top: 10px;
+}
+.third>h1{font-size: 50px;}
+.third>div{
+    display: flex;
+}
+.third.two{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.third.two>div{
+    display: flex;
+    flex-direction: column;
+    
+}
+.courses{
+    text-align: center;
+    padding-top: 10px;
+}
+.courses>h1{font-size: 50px;}
+.courses>.uno{
+    max-width: 250px;
+    margin-left: 20px;
+    padding: 20px;
+    border: #818576 solid;
+}
+.mid{
+    display: flex;
+    justify-content: center;
+}
+.mid>div{
+    max-width: 250px;
+    padding: 20px;
+    border: #818576 solid; 
+}
+.end{
+    display: flex;
+    justify-content: end;
+}
+.end>div{
+    max-width: 250px;
+    padding: 20px;
+    border: #818576 solid; 
+    margin-right: 20px;
+}
+.project{
+    text-align: center;
+    padding-top: 10px;
+}
+.project>h1{font-size: 50px;}
+.project>.edu{ text-align: start; margin-left: 50px;}
+.edu>div{display: flex;justify-content: space-evenly;}
+footer{
+    padding-top: 5px;
+    text-align: center;
+}
+.icon{
+    display: grid;
+    grid-template-columns: auto auto auto  auto;
+    justify-content: center;
+    gap: 20px;
+}
+
+a:hover{
+    font-size: 40px;
+}
