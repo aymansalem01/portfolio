@@ -156,3 +156,11 @@ a:hover{
     animation-timeline: view();
     animation-range: entry 0 cover 40%;
 }
+.animation2{
+    animation: toright 1s linear ;
+    animation-range: entry 0 ;
+}
+.animation3{
+    animation: toright 2s linear ;
+    animation-range: entry 0 ;
+}
