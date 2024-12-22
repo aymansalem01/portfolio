@@ -8,6 +8,9 @@ body{
 nav{
     display: flex;
     justify-content: center;
+    position: sticky;
+    top: 0;
+    background-color: black;
 }
 nav>div{
     text-align: center;
@@ -23,7 +26,7 @@ nav>div>a{
     padding-top: 30px;
 }
 .head>.left{
-    width: 30%;
+    width: 400x;
     /* border: #818576 solid; */
     margin-left: 20px;
 }
@@ -64,12 +67,14 @@ nav>div>a{
     padding-top: 10px;
 }
 .third>h1{font-size: 50px;}
-.third>div{
+/* .third>div{
     display: flex;
-}
-.third.two{
+    justify-content: space-evenly;
+} */
+.two{
     display: grid;
     grid-template-columns: auto auto;
+    justify-content: space-evenly;
 }
 .third.two>div{
     display: flex;
@@ -115,6 +120,7 @@ nav>div>a{
 .edu>div{display: flex;justify-content: space-evenly;}
 footer{
     padding-top: 5px;
+    padding-bottom: 15px;
     text-align: center;
 }
 .icon{
@@ -166,4 +172,13 @@ div:hover{border-color:rgb(170, 146, 7) ;}
 .animation3{
     animation: toright 2s linear ;
     animation-range: entry 0 ;
+}
+@media only screen and (max-width: 1000px){
+    .head{flex-wrap: wrap;text-align: center;justify-content: center;}
+    .skillscard{flex-wrap: wrap;}
+    .skillscard>div{margin-top: 20px;}
+    .two{  grid-template-columns: auto;}
+    .courses>div{margin-top: 20px;}
+    .edu>div{flex-wrap: wrap; gap: 20px;}
+
 }
