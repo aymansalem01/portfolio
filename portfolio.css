@@ -1,14 +1,23 @@
 body{
-    background-color:#121210 ;
-    color: #818576;
+    background-color:black ;
+    /* color: #818576; */
     font-family: 'Playfair Display', serif;
     padding: 0px;
     margin: 0px;
 }
+*{
+    color: #818576;
+}
+h1{
+    color:#818576;
+}
+p{
+    color: #818576;
+}
 nav{
     display: flex;
     justify-content: center;
-    position: sticky;
+    /* position: sticky; */
     top: 0;
     background-color: black;
 }
